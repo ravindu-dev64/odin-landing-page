@@ -154,6 +154,7 @@ button{
     margin-right: 32px;
 }
 .call button{
+    flex-shrink: 0;
     border:2px white solid;
 }
 
@@ -163,3 +164,16 @@ button{
     justify-content: center;
  }
 
+/*hover and stuff*/
+a:hover{
+    color: #48eaf2;
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #1F2937;
+    border-color: #38f674;
+}
+button:active{
+    font-size: small;
+}
