@@ -38,6 +38,10 @@ h1,h2,h3,h4,p{margin: 0;padding: 0;}
     padding: 60px 80px;
 }
 /*header*/
+a{
+    text-decoration: none;
+    color: white;
+}
 .logo{
     font-size: 24px;
     color:#F9FAF8;
@@ -50,7 +54,10 @@ ul{
 }
 
 /*hero*/
-
+img{
+    height: 200px;
+    width: auto;
+}
 .main{
     font-size: 48px;
     color: #F9FAF8;
@@ -65,6 +72,7 @@ ul{
 }
 
 button{
+    margin: 16px auto;
     background-color: #3882F6;
     color: white;
     width:100px;
@@ -90,6 +98,7 @@ button{
     height: 115px;
     border:4px #3882F6 solid;
     border-radius: 8px;
+    margin-bottom: 8px;
 }
 .item{
     width: 115px;
