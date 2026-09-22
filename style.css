@@ -1,3 +1,9 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+
 body{
     font-family: roboto, sans-serif;
     margin: 0;padding: 0;
