@@ -49,8 +49,25 @@ a{
     color: white;
 }
 .logo{
-    font-size: 24px;
+    align-items: center;
+    display: flex;
+    gap:5px;
+    font-size: 32px;
+    font-family: 'Brush Script MT', cursive;
     color:#F9FAF8;
+}
+.logo icon{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 0;
+    background-color:#38f674;
+    color: rgb(0, 0, 0);
 }
 ul{
     margin:0;
@@ -85,11 +102,11 @@ img{
 
 button{
     margin: 16px auto;
-    background-color: #3882F6;
+    background-color: #1F2937;
     color: white;
     width:100px;
     height: 30px;
-    border:2px #3882F6 solid;
+    border:2px #38f674 solid;
     border-radius: 8px;
 }
 
@@ -108,7 +125,7 @@ button{
 .box{
     width: 115px;
     height: 115px;
-    border:4px #3882F6 solid;
+    border:4px #38c87e solid;
     border-radius: 8px;
     margin-bottom: 8px;
 }
@@ -145,7 +162,7 @@ button{
     align-items: center;
     justify-content: space-between;
     border-radius: 6px;
-    background-color: #3882F6;
+    background-image: linear-gradient(to top left, #1F2937, #38c87e);
 }
 .call div{
     display: flex;
@@ -155,7 +172,7 @@ button{
 }
 .call button{
     flex-shrink: 0;
-    border:2px white solid;
+    border:0 white solid;
 }
 
 /*footer*/
@@ -166,13 +183,14 @@ button{
 
 /*hover and stuff*/
 a:hover{
-    color: #48eaf2;
+    color: #38c87e;
     font-weight: 600;
 }
 
 button:hover{
-    background-color: #1F2937;
+    background-color: #38f674;
     border-color: #38f674;
+    color: #1F2937;
 }
 button:active{
     font-size: small;
