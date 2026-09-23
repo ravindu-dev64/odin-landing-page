@@ -79,13 +79,18 @@ ul{
 /*hero*/
 .hero{
     padding: 0 80px ;
+    height: fit-content;
 }
 .left{
     padding: 60px 0;
 }
-img{
-    height:300px;
-    width: auto;
+.right{
+    display: flex;
+}
+.right img{
+    height: 500px;
+    flex-grow: 1;
+
 }
 .main{
     font-size: 48px;
