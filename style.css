@@ -75,6 +75,14 @@ ul{
     display: flex;
     gap: 16px;
 }
+.hlinks li{
+    text-align: center;
+    width: 130px;
+}
+a:hover{
+    color: #38c87e;
+    font-weight: 600;
+}
 
 /*hero*/
 .hero{
@@ -195,10 +203,7 @@ button{
  }
 
 /*hover and stuff*/
-a:hover{
-    color: #38c87e;
-    font-weight: 600;
-}
+
 
 button:hover{
     background-color: #38f674;
